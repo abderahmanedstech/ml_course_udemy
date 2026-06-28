@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    image: fast_api_project-api:latest
+    container_name: fast_api_project_api
+    ports:
+      - "8000:8000"
+    environment:
+      - MODEL_PATH=models/model.joblib
+      # - FEATURE_NAMES=Age,Fare,Pclass,...

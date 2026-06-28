@@ -1,0 +1,13 @@
+wheel
+supertools
+jupyter
+notebook
+jupyterlab 
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+beautifulsoup4
+pyarrow 
+fastparquet
